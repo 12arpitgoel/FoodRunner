@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".activity.RegistrationPage"
+    android:id="@+id/linearLayout">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Register Yourself"
+        app:titleTextColor="#ffffff"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ic_person"
+        android:hint="@string/name_min_3_characters"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ic_email"
+        android:hint="@string/email_address"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:inputType="number"
+        android:drawableStart="@drawable/ic_phone"
+        android:hint="@string/mobile_number_10_digits"
+        android:padding="8dp"
+        android:maxLength="10"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ic_delivery"
+        android:hint="@string/delivery_address"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="@string/password_min_4_characters"
+        android:inputType="numberPassword"
+        android:padding="8dp"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/edtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="#ffffff"
+        android:drawableStart="@drawable/ic_lock"
+        android:hint="@string/confirm_password"
+        android:padding="8dp"
+        android:inputType="numberPassword"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnRegisterYourself"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:textColor="#ffffff"/>
+
+
+</LinearLayout>

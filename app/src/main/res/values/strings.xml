@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="preference_file_name">Login</string>
+    <string name="home">Home</string>
+    <string name="my_profile">My Profile</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="Rs">\u20B9</string>
+
+    <string name="q_1_name_of_the_developer_of_the_app">Q.1 Name of the App Developer?</string>
+    <string name="q_2_about_the_app">Q.2 About the App?</string>
+    <string name="q_3_payment">Q.3 Payment Method?</string>
+
+    <string name="faq_answer_one" > Arpit Goel</string>
+    <string name="faq_answer_two" > Eating is something that everyone loves to do, and what’s better than
+        sitting in the comfort of your home, reading your favorite book, watching some show or film or just
+        chilling with your family and friends and ordering food from your favorite restaurant at your
+        fingertips with an amazing food ordering app.</string>
+    <string name="faq_answer_three" > Your orders will be placed for free, So don\'t worry about payment.
+        Enjoy your fictional food from the top fictional restaurants.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="your_order_has_been_successfully_placed">Your order has been successfully placed!</string>
+    <string name="ok">OK</string>
+    <string name="enter_your_registered_mobile_number_and_email_below">Enter your Registered mobile number and email below:</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign Up now</string>
+    <string name="place_order">Place Order</string>
+    <string name="ordering_from">Ordering From:</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="otp_4_characters">OTP (4 characters)</string>
+    <string name="submit">Submit</string>
+    <string name="name_min_3_characters">Name (Min. 3 characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits">Mobile Number (10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="menu">Menu</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="proceed_to_cart">Proceed to Cart</string>
+    <string name="you_do_not_have_any_favourite_restaurants">You do not have any favourite restaurants</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed below:</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="_4_5">4.5</string>
+    <string name="restaurant_price">Restaurant Price</string>
+    <string name="dish_name">Dish Name</string>
+    <string name="add">ADD</string>
+    <string name="restname">RestName</string>
+    <string name="date">Date</string>
+</resources>
